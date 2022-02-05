@@ -11,7 +11,7 @@ use std::{env, error::Error, fmt};
 async fn main() {
     dotenv().ok();
     env_logger::init();
-    let token = env::var("ONLY_COMMENTS_TOKEN").expect("ONLY_COMMENTS_TOKEN env var is not set or invalid");
+    let token = env::var("CUSTOS_TOKEN").expect("CUSTOS_TOKEN env var is not set or invalid");
     let api = Api::new(token).expect("Failed to create Api");
     let mut context = Context::default();
     context.insert(api.clone());

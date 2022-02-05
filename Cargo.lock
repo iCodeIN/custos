@@ -92,6 +92,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
+name = "custos"
+version = "0.2.0"
+dependencies = [
+ "carapax",
+ "dotenv",
+ "env_logger",
+ "log",
+ "tokio",
+]
+
+[[package]]
 name = "derive_more"
 version = "0.99.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -461,17 +472,6 @@ name = "once_cell"
 version = "1.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "13bd41f508810a131401606d54ac32a467c97172d74ba7662562ebba5ad07fa0"
-
-[[package]]
-name = "only-comments"
-version = "0.1.0"
-dependencies = [
- "carapax",
- "dotenv",
- "env_logger",
- "log",
- "tokio",
-]
 
 [[package]]
 name = "percent-encoding"

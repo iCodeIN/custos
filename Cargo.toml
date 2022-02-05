@@ -1,5 +1,5 @@
 [package]
-name = "only-comments"
+name = "custos"
 version = "0.2.0"
 authors = ["Ross Nomann <rossnomann@protonmail.com>"]
 edition = "2021"
