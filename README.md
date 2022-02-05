@@ -10,6 +10,10 @@ A telegram bot to kick everyone that will join to a group in order to keep it co
 
 ## Changelog
 
+### 0.2.0 (05.02.2021)
+
+- carapax 0.11
+
 ### 0.1.0 (04.02.2021)
 
 - First release.
